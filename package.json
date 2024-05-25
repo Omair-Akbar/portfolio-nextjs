@@ -21,6 +21,7 @@
     "lucide-react": "^0.379.0",
     "next": "14.2.3",
     "react": "^18",
+    "react-countup": "^6.5.3",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "tailwind-merge": "^2.3.0",
