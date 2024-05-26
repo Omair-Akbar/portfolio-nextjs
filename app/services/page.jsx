@@ -6,26 +6,26 @@ import {motion} from "framer-motion"
 const services= [
   {
     num: "01",
-    title: "Front-end Development",
-    descripition: " experience in both front-end Development.",
+    title: "full-stack web Development",
+    descripition: " I provide top-notch full-stack web development services backed by extensive experience.",
     href:"#"
   },
   {
     num: "02",
     title: "Back-end Development",
-    descripition: " experience in both Back-end Development.",
+    descripition: "I provide top-tier back-end web development services backed by extensive experience.",
     href:"#"
   },
   {
     num: "04",
-    title: "Database Management",
-    descripition: " Basic knowledge in both database-Management Development.",
+    title: "front-end Development",
+    descripition: "I provide top-tier front-end web development services backed by extensive experience.",
     href:"#"
   },
   {
     num: "03",
     title: "Video Editing",
-    descripition: " experience in both Video-editing.",
+    descripition: "I provide top-tier video editing services backed by extensive experience.",
     href:"#"
   }
 
@@ -43,8 +43,8 @@ const page = () => {
             {services.map((item,index)=>{
               return <div key={index} className="felx-1 flex flex-col justify-center gap-6 group">
                 <div className="w-full flex justify-between items-center">
-                <div className="text-5xl font-extrabold text-outline text-transparent group-hoer:text-outline-hover transition-all duration-500">{item.num}</div>
-                <Link className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:rotate-45" href={item.href}>
+                <div className="text-5xl font-extrabold   transition-all duration-500 group-hover:text-accent">{item.num}</div>
+                <Link className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center group-hover:rotate-45" href={item.href}>
                   <BsArrowDownRight className="text-primary text-3xl"/>
                   </Link>
               </div>
