@@ -1,6 +1,6 @@
 "use client"
 import { delay, motion } from "framer-motion"
-import React, { useState } from "react"
+import { useState } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import { BsArrowUpRight, BsGithub } from "react-icons/bs"
@@ -38,7 +38,7 @@ const projects = [
     image: '/assets/work/thumb3.png',
     live: "",
     github: "",
-  },
+  }
 ]
 
 const page = () => {
