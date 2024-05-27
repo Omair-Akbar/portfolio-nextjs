@@ -1,6 +1,7 @@
 "use client"
+import React from "react"
 import { delay, motion } from "framer-motion"
-import { useState } from "react"
+import {useState} from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import { BsArrowUpRight, BsGithub } from "react-icons/bs"
@@ -8,6 +9,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@radix
 import Link from "next/link";
 import Image from "next/image"
 import WorkSliderBtns from "@/components/WorkSliderBtns"
+import { useState } from "react"
 
 const projects = [
   {
@@ -41,7 +43,7 @@ const projects = [
   }
 ]
 
-const page = () => {
+const WorkPage = () => {
 
   const [project, setProject] = useState(projects[0])
   const handleSlideChange = (swiper) =>{
@@ -111,4 +113,4 @@ const page = () => {
   )
 }
 
-export default page
+export default WorkPage
