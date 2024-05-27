@@ -16,7 +16,7 @@ const projects = [
     title: "Project 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos est assumenda dolor numquam quos omnis impedit neque veli    ",
     stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: '/assets/work/thumb1.jpg',
+    image: '/assets/work/thumb1.png',
     live: "",
     github: "",
   },
@@ -26,7 +26,7 @@ const projects = [
     title: "Project 2",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis amet dolores velit officia reiciendis deleniti laudantium, voluptate sit corrupti vitae minima, incidunt nesciunt quos architecto, odio voluptatum aperiam quia unde!",
     stack: [{ name: "Next.js 14" }, { name: "Node.js" }, { name: "tailwind css" }],
-    image: '/assets/work/thumb2.jpg',
+    image: '/assets/work/thumb2.png',
     live: "",
     github: "",
   },{
