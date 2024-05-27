@@ -15,8 +15,8 @@ const stats = [
         text: "Skills mention on Linkedin"
     },
     {
-        num: 1021,
-        text: "Followers on Linkedin"
+        num: 1039,
+        text: "Linkedin Followers"
     },
 ]
 
