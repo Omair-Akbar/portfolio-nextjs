@@ -16,7 +16,7 @@ const projects = [
     title: "Project 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos est assumenda dolor numquam quos omnis impedit neque veli    ",
     stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: '/assets/work/thumb1.png',
+    image: '/assets/work/thumb1.jpg',
     live: "",
     github: "",
   },
@@ -25,11 +25,20 @@ const projects = [
     category: "Full-stack",
     title: "Project 2",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis amet dolores velit officia reiciendis deleniti laudantium, voluptate sit corrupti vitae minima, incidunt nesciunt quos architecto, odio voluptatum aperiam quia unde!",
-    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: '/assets/work/thumb2.png',
+    stack: [{ name: "Next.js 14" }, { name: "Node.js" }, { name: "tailwind css" }],
+    image: '/assets/work/thumb2.jpg',
     live: "",
     github: "",
-  }
+  },{
+    num: "03",
+    category: "back-end",
+    title: "Project 3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos est assumenda dolor numquam quos omnis impedit neque veli    ",
+    stack: [{ name: "Next.js 14" }, { name: "Node.js" }, { name: "tailwind css" }],
+    image: '/assets/work/thumb3.png',
+    live: "",
+    github: "",
+  },
 ]
 
 const page = () => {
