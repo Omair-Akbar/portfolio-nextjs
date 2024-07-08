@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import { delay, motion } from "framer-motion"
+import {  motion } from "framer-motion"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import { BsArrowUpRight, BsGithub } from "react-icons/bs"
@@ -12,8 +12,57 @@ import WorkSliderBtns from "@/components/WorkSliderBtns"
 const projects = [
   {
     num: "01",
-    category: "Front-end",
+    category: "Full-Stack",
     title: "Project 1",
+    description: '"Linkedin Clone" - A comprehensive full-stack project built with Next.js, featuring OAuth login functionality and robust post management capabilities, closely emulating the core features of LinkedIn.',
+    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "TypeScript" }],
+    image: '/assets/work/thumb5.png',
+    live: "https://linko-nine.vercel.app/",
+    github: "https://github.com/Omair-Akbar/Linko",
+  },
+  {
+    num: "02",
+    category: "Full-Stack",
+    title: "Project 2",
+    description: '"Authentication" - A full-stack authentication project using Next.js, integrating GitHub login, signup, and signin features, with MongoDB for robust database management, ensuring secure user authentication and data storage.',
+    stack: [{ name: "Next.js" }, { name: "TypeSript" }, { name: "MongoDB" }],
+    image: '/assets/work/thumb7.png',
+    live: "https://www.linkedin.com/posts/omair-akbar_nextjs-webdevelopment-authentication-activity-7212019402865565696-36bD/?utm_source=share&utm_medium=member_desktop",
+    github: "https://github.com/Omair-Akbar/complete-auth",
+  },
+  {
+    num: "03",
+    category: "Front-end",
+    title: "Project 3",
+    description: '"React Cards" - A frontend project emphasizing smooth animations and enhanced user experience, powered by Framer Motion to create dynamic and engaging card interfaces.',
+    stack: [{ name: "React.js" }, { name: "Tailwind CSS" }, { name: "JavaScript" }],
+    image: '/assets/work/thumb4.png',
+    live: "https://react-cards-ten-virid.vercel.app/",
+    github: "https://github.com/Omair-Akbar/ReactCards",
+  },
+  {
+    num: "04",
+    category: "Full-stack",
+    title: "Project 4",
+    description: '"Food Delivery Web App" - A full-stack project enabling users to manage carts, login, signup, post new food items, and delete food items, providing a seamless experience for ordering and managing food deliveries online.',
+    stack: [{ name: "Next.js 14" }, { name: "Node.js" }, { name: "MongoDB" }],
+    image: '/assets/work/thumb.jpg',
+    live: "https://www.linkedin.com/posts/omair-akbar_nextjs-fullstack-webdevelopment-activity-7192841836837703681-EaId/?utm_source=share&utm_medium=member_desktop",
+    github: "https://github.com/Omair-Akbar/NextJs-resto-app",
+  },{
+    num: "05",
+    category: "back-end",
+    title: "Project 5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos est assumenda dolor numquam quos omnis impedit neque veli    ",
+    stack: [{ name: "Next.js 14" }, { name: "Node.js" }, { name: "tailwind css" }],
+    image: '/assets/work/thumb3.png',
+    live: "",
+    github: "",
+  },
+  {
+    num: "06",
+    category: "Front-end",
+    title: "Project 6",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos est assumenda dolor numquam quos omnis impedit neque veli    ",
     stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
     image: '/assets/work/thumb1.png',
@@ -21,21 +70,12 @@ const projects = [
     github: "",
   },
   {
-    num: "02",
+    num: "07",
     category: "Full-stack",
-    title: "Project 2",
+    title: "Project 7",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis amet dolores velit officia reiciendis deleniti laudantium, voluptate sit corrupti vitae minima, incidunt nesciunt quos architecto, odio voluptatum aperiam quia unde!",
     stack: [{ name: "Next.js 14" }, { name: "Node.js" }, { name: "tailwind css" }],
     image: '/assets/work/thumb2.png',
-    live: "",
-    github: "",
-  },{
-    num: "03",
-    category: "back-end",
-    title: "Project 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos est assumenda dolor numquam quos omnis impedit neque veli    ",
-    stack: [{ name: "Next.js 14" }, { name: "Node.js" }, { name: "tailwind css" }],
-    image: '/assets/work/thumb3.png',
     live: "",
     github: "",
   }
