@@ -17,7 +17,6 @@ const reverseIndex = (index)=>{
     const totalStep = 6;
     return totalStep - index - 1;
 }
-
 const Stairs = () => {
   return (
     <>
