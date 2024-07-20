@@ -1,6 +1,5 @@
 import { easeInOut, motion } from "framer-motion";
 
-
 const stairAnimation = {
     initial: {
         top: "0%",
