@@ -11,7 +11,6 @@ const Header = () => {
                     <h1 className="text-4xl font-semibold">Om<span className="text-accent">air</span>Akbar</h1>
                 </Link>
 
-
                 {/* navigation bar  */}
 
                 <div className="hidden xl:flex items-center gap-8">
