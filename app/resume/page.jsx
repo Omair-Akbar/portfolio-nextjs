@@ -7,7 +7,6 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { motion } from "framer-motion"
 
 
-
 const about = {
 
   title: "About me",
