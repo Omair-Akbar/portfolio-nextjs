@@ -28,7 +28,6 @@ const services= [
     descripition: "I provide top-tier video editing services backed by extensive experience.",
     href:"#"
   }
-
 ]
 
 const page = () => {
