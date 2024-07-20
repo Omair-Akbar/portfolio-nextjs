@@ -17,8 +17,7 @@ const PageTransition = ({ childern }) => {
                         },
                     }} 
                         className="h-screen w-screen fixed bg-primary top-0 pointer-events-none"/>
-                        </div>
-                        
+                        </div>            
         </AnimatePresence>
         {childern}
         </> 
