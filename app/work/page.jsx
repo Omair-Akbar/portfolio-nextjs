@@ -9,7 +9,6 @@ import Link from "next/link";
 import Image from "next/image"
 import WorkSliderBtns from "@/components/WorkSliderBtns"
 
-
 const projects = [
   {
     num: "01",
